@@ -1,4 +1,8 @@
 {
-"name": "@jk-me/practice",
-"version": "1.0.0"
+  "name": "@jk-me/practicenpm",
+  "version": "1.0.0",
+  "description": "Removes all spaces from a string",
+  "license": "MIT",
+  "repository": "jk-me/practicenpm",
+  "main": "index.js"
 }
