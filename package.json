@@ -1,7 +1,7 @@
 {
   "name": "@jk-me/practicenpm",
   "version": "2.0.0",
-  "description": "Removes all spaces from a string",
+  "description": "Functions to modify string by removing whitespace, or by removing symbols and punctuation",
   "license": "MIT",
   "repository": "jk-me/practicenpm",
   "main": "index.js"
