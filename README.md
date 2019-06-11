@@ -1,6 +1,6 @@
 # @jk-me/practicenpm
 
-Functions to modify string by removing whitespace, or remove symbols and punctuation.
+Functions to modify string by removing whitespace, or by removing symbols and punctuation.
 
 ## Install
 
