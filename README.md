@@ -1,6 +1,6 @@
 # @jk-me/practicenpm
 
-Removes all spaces from a string.
+Functions to modify string by removing whitespace, or remove symbols and punctuation.
 
 ## Install
 
@@ -11,12 +11,20 @@ $ npm install @jk-me/practicenpm
 ## Usage
 
 ```js
-const tiny = require("@jk-me/practicenpm");
+const pie = require("@jk-me/practicenpm");
 
-tiny("String with spaces.");
+pie.tiny("String with spaces.");
 //=> "Stringwithspaces."
 
-tiny(101);
+pie.tiny(101);
+//=> Uncaught TypeError: Tiny wants a string!
+//    at tiny (<anonymous>:2:41)
+//    at <anonymous>:1:1
+
+pie.removeSym("String with symbols.?><!@#$:&*^(); keep spaces and characters");
+//=> "String with symbols keep spaces and characters"
+
+pie.removeSym(101);
 //=> Uncaught TypeError: Tiny wants a string!
 //    at tiny (<anonymous>:2:41)
 //    at <anonymous>:1:1
