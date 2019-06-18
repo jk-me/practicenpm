@@ -17,7 +17,7 @@ pie.tiny("String with spaces.");
 //=> "Stringwithspaces."
 
 pie.tiny(101);
-//=> Uncaught TypeError: Tiny wants a string!
+//=> Uncaught TypeError: Not a string!
 //    at tiny (<anonymous>:2:41)
 //    at <anonymous>:1:1
 
@@ -25,7 +25,7 @@ pie.removeSym("String with symbols.?><!@#$:&*^(); keep spaces and characters");
 //=> "String with symbols keep spaces and characters"
 
 pie.removeSym(101);
-//=> Uncaught TypeError: Tiny wants a string!
+//=> Uncaught TypeError: Not a string!
 //    at tiny (<anonymous>:2:41)
 //    at <anonymous>:1:1
 ```
